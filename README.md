@@ -23,23 +23,19 @@ install.packages(c("forecast", "tseries", "astsa", "ggplot2"))
 
  Predicting_Egg_Prices  
  ┣  DATA  
- ┃ ┣ egg_prices_raw.csv  # Original dataset  
- ┃ ┣ egg_prices_clean.csv  # Processed dataset  
+ ┃ ┣ egg prices.csv # Original dataset  
  ┃ ┗ data_appendix.pdf  # Data description  
  ┣ SCRIPTS  
- ┃ ┣ # Data cleaning & transformation  
- ┃ ┣ # Exploratory data analysis  
- ┃ ┣ # ARIMA model fitting  
- ┃ ┣ # RMSE & MAE calculations  
- ┃ ┗ # Forecasting egg prices  
+ ┃ ┣ EggPrice_ARIMA # installing packages, data processing and cleaning, ARIMA modeling, hypothesis testing, and evaluating the mode
  ┣ OUTPUT  
- ┃ ┣ forecast_plot.png  # Forecast visualization  
- ┃ ┣ residual_diagnostics.png  # Residual analysis  
- ┃ ┗ model_performance_metrics.txt  # RMSE & MAE results  
+ ┃ ┣ ACF and PACF of Transformed Egg Prices.png 
+ ┃ ┣ Forecasted Egg Prices.png 
+ ┃ ┣ Time Series of Differenced and Long Transformed Egg Prices.png
+ ┃ ┣ Time Series of Egg Prices.png
+ ┃ ┗ Time Series of Log Transformed Egg Prices.png
  ┣ README.md  # This file  
  ┣ LICENSE.md  # MIT License  
 ```
-
 
 ## **Reproducing Results**
 Follow these **step-by-step instructions** to replicate the analysis and forecast future egg prices.
@@ -57,14 +53,8 @@ This project requires **R** and **RStudio**. Ensure they are installed before pr
 ```r
 install.packages(c("forecast", "tseries", "astsa", "ggplot2"))
 ```
-## 3. Run Scripts in Order
-Execute the R scripts in SCRIPTS folder in the following order:
-
-### Step 1: Data Processing
-### Step 2: Exploratory Data Analysis 
-### Step 3: Fit AIRMA Model
-### Step 4: Evaluate Model Performance
-### Step 5: Forecast Future Egg Prices
+## 3. Run Code in the SCIRPTS folder
+Execute the code under SCRIPTS folder 
 
 ## **Verify Results**
 Once all scripts are executed, check the OUTPUT folder for:
