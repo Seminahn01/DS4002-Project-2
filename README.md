@@ -21,6 +21,7 @@ This project applies **time series forecasting** using the **ARIMA model** to pr
 ```r
 install.packages(c("forecast", "tseries", "astsa", "ggplot2"))
 
+```plaintext
  Predicting_Egg_Prices  
  ┣  DATA  
  ┃ ┣ egg_prices_raw.csv  # Original dataset  
@@ -39,6 +40,7 @@ install.packages(c("forecast", "tseries", "astsa", "ggplot2"))
  ┣ README.md  # This file  
  ┣ LICENSE.md  # MIT License  
 
+```
 ## **Reproducing Results**
 Follow these **step-by-step instructions** to replicate the analysis and forecast future egg prices.
 
