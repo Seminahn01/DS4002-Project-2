@@ -47,3 +47,9 @@ First, download the project files to your local machine.
 ```bash
 git clone https://github.com/your-repo-link
 cd Predicting_Egg_Prices
+## **2. Install Required Software and Dependencies**
+This project requires **R** and **RStudio**. Ensure they are installed before proceeding.
+
+### **Install the required R packages:**
+```r
+install.packages(c("forecast", "tseries", "astsa", "ggplot2"))
