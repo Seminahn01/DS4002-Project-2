@@ -22,6 +22,7 @@ This project applies **time series forecasting** using the **ARIMA model** to pr
 install.packages(c("forecast", "tseries", "astsa", "ggplot2"))
 
 ```plaintext
+
  Predicting_Egg_Prices  
  ┣  DATA  
  ┃ ┣ egg_prices_raw.csv  # Original dataset  
@@ -39,20 +40,33 @@ install.packages(c("forecast", "tseries", "astsa", "ggplot2"))
  ┃ ┗ model_performance_metrics.txt  # RMSE & MAE results  
  ┣ README.md  # This file  
  ┣ LICENSE.md  # MIT License  
-
 ```
-```plain text
+
+
 ## **Reproducing Results**
 Follow these **step-by-step instructions** to replicate the analysis and forecast future egg prices.
 
 ### **1. Clone the Repository**
 First, download the project files to your local machine.
-```bash
+
 git clone https://github.com/your-repo-link
 cd Predicting_Egg_Prices
+
 ## **2. Install Required Software and Dependencies**
 This project requires **R** and **RStudio**. Ensure they are installed before proceeding.
 
 ### **Install the required R packages:**
 ```r
 install.packages(c("forecast", "tseries", "astsa", "ggplot2"))
+```
+## 3. Run Scripts in Order
+Execute the R scripts in SCRIPTS folder in the following order:
+
+### Step 1: Data Processing
+### Step 2: Exploratory Data Analysis 
+### Step 3: Fit AIRMA Model
+### Step 4: Evaluate Model Performance
+### Step 5: Forecast Future Egg Prices
+
+## **Verify Results**
+Once all scripts are executed, check the OUTPUT folder for:
