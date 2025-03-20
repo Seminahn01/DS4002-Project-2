@@ -38,3 +38,12 @@ install.packages(c("forecast", "tseries", "astsa", "ggplot2"))
  ┃ ┗ model_performance_metrics.txt  # RMSE & MAE results  
  ┣ README.md  # This file  
  ┣ LICENSE.md  # MIT License  
+
+## **Reproducing Results**
+Follow these **step-by-step instructions** to replicate the analysis and forecast future egg prices.
+
+### **1. Clone the Repository**
+First, download the project files to your local machine.
+```bash
+git clone https://github.com/your-repo-link
+cd Predicting_Egg_Prices
