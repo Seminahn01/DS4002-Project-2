@@ -41,6 +41,7 @@ install.packages(c("forecast", "tseries", "astsa", "ggplot2"))
  ┣ LICENSE.md  # MIT License  
 
 ```
+```plain text
 ## **Reproducing Results**
 Follow these **step-by-step instructions** to replicate the analysis and forecast future egg prices.
 
