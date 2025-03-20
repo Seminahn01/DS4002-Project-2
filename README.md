@@ -20,3 +20,21 @@ This project applies **time series forecasting** using the **ARIMA model** to pr
 **Required R Packages:**  
 ```r
 install.packages(c("forecast", "tseries", "astsa", "ggplot2"))
+
+ Predicting_Egg_Prices  
+ ┣  DATA  
+ ┃ ┣ egg_prices_raw.csv  # Original dataset  
+ ┃ ┣ egg_prices_clean.csv  # Processed dataset  
+ ┃ ┗ data_appendix.pdf  # Data description  
+ ┣ SCRIPTS  
+ ┃ ┣ # Data cleaning & transformation  
+ ┃ ┣ # Exploratory data analysis  
+ ┃ ┣ # ARIMA model fitting  
+ ┃ ┣ # RMSE & MAE calculations  
+ ┃ ┗ # Forecasting egg prices  
+ ┣ OUTPUT  
+ ┃ ┣ forecast_plot.png  # Forecast visualization  
+ ┃ ┣ residual_diagnostics.png  # Residual analysis  
+ ┃ ┗ model_performance_metrics.txt  # RMSE & MAE results  
+ ┣ README.md  # This file  
+ ┣ LICENSE.md  # MIT License  
