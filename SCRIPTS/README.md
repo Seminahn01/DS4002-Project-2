@@ -1,1 +1,1 @@
-
+The script 'EggPrice_ARIMA' contains all steps of the code including installing packages, data processing and cleaning, ARIMA modeling, hypothesis testing, and evaluating the model. No other scripts are needed to reproduce the results. 
