@@ -57,8 +57,11 @@ install.packages(c("forecast", "tseries", "astsa", "ggplot2"))
 Execute the code under SCRIPTS folder. 
 
 The Data Processing and Cleaning section will load in and clean the data.
+
 The Exploratory Data Analysis section will make an initial time series plot to check for stationarity then log transform and difference the data to make it stationary, creating time series plots for each. An Augmented-Dickey Fuller Test as well as an ACF and PACF plot will be made to confirm stationarity and evaluate possible ARIMA orders. 
+
 The ARIMA Modeling section will test possible ARIMA models and find the best one.
+
 The Hypothesis Testing and Evaluating Model section will conduct a Box-Ljung Test for Residuals and forecast the next 12 months in order to find the RMSE and MAE to evaluate the model. 
 
 ## **Verify Results**
