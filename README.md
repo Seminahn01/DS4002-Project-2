@@ -43,9 +43,6 @@ Follow these **step-by-step instructions** to replicate the analysis and forecas
 ### **1. Clone the Repository**
 First, download the project files to your local machine. This includes the "egg prices.csv" found in the DATA folder and the "EggPrice_ARIMA" found in the SCRIPTS folder. 
 
-git clone https://github.com/your-repo-link
-cd Predicting_Egg_Prices
-
 ## **2. Install Required Software and Dependencies**
 This project requires **R** and **RStudio**. Ensure they are installed before proceeding.
 
@@ -66,3 +63,9 @@ The **Hypothesis Testing and Evaluating Model** section will conduct a Box-Ljung
 
 ## **Verify Results**
 Once all scripts are executed, check the OUTPUT folder for:
+- Forcasted Egg Prices
+- ACF and PACF of Transformed Egg Prices
+- Time Series of Differenced and Log Transfomred Egg Prices
+- Time Series of Egg Prices
+- Time Series of Log Transformed Egg Prices
+
