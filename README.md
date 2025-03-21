@@ -54,7 +54,7 @@ This project requires **R** and **RStudio**. Ensure they are installed before pr
 install.packages(c("forecast", "tseries", "astsa", "ggplot2"))
 ```
 ## 3. Run Code in the SCIRPTS folder
-Execute the code under SCRIPTS folder. 
+Execute the code under SCRIPTS folder. All code is included within the "EggPrice_ARIMA" script. 
 
 The **Data Processing and Cleaning** section will load in and clean the data.
 
