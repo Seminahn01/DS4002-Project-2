@@ -41,7 +41,7 @@ install.packages(c("forecast", "tseries", "astsa", "ggplot2"))
 Follow these **step-by-step instructions** to replicate the analysis and forecast future egg prices.
 
 ### **1. Clone the Repository**
-First, download the project files to your local machine.
+First, download the project files to your local machine. This includes the "egg prices.csv" found in the DATA folder and the "EggPrice_ARIMA" found in the SCRIPTS folder. 
 
 git clone https://github.com/your-repo-link
 cd Predicting_Egg_Prices
@@ -54,7 +54,12 @@ This project requires **R** and **RStudio**. Ensure they are installed before pr
 install.packages(c("forecast", "tseries", "astsa", "ggplot2"))
 ```
 ## 3. Run Code in the SCIRPTS folder
-Execute the code under SCRIPTS folder 
+Execute the code under SCRIPTS folder. 
+
+The Data Processing and Cleaning section will load in and clean the data.
+The Exploratory Data Analysis section will make an initial time series plot to check for stationarity then log transform and difference the data to make it stationary, creating time series plots for each. An Augmented-Dickey Fuller Test as well as an ACF and PACF plot will be made to confirm stationarity and evaluate possible ARIMA orders. 
+The ARIMA Modeling section will test possible ARIMA models and find the best one.
+The Hypothesis Testing and Evaluating Model section will conduct a Box-Ljung Test for Residuals and forecast the next 12 months in order to find the RMSE and MAE to evaluate the model. 
 
 ## **Verify Results**
 Once all scripts are executed, check the OUTPUT folder for:
