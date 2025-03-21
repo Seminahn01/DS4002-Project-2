@@ -26,7 +26,7 @@ install.packages(c("forecast", "tseries", "astsa", "ggplot2"))
  ┃ ┣ egg prices.csv # Original dataset  
  ┃ ┗ data_appendix.pdf  # Data description  
  ┣ SCRIPTS  
- ┃ ┣ EggPrice_ARIMA # installing packages, data processing and cleaning, ARIMA modeling, hypothesis testing, and evaluating the mode
+ ┃ ┣ EggPrice_ARIMA # installing packages, data processing and cleaning, ARIMA modeling, hypothesis testing, and evaluating the model
  ┣ OUTPUT  
  ┃ ┣ ACF and PACF of Transformed Egg Prices.png 
  ┃ ┣ Forecasted Egg Prices.png 
